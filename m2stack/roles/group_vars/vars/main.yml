@@ -1,0 +1,32 @@
+---
+# vars file for nginx
+domain: blossomcostumes
+subdomain: www
+dev_subdomain: dev
+url: www.blossomcostumes.com.au
+dev_url: uat.blossomcostumes.com.au
+tld: com.au
+user: live_blossomcostumes
+group: live_blossomcostumes
+dev_user: uat_blossomcostumes
+dev_group: uat_blossomcostumes
+#webroot: /opt/magento/vhosts
+webroot: /var/www/vhosts
+php_version: 7.4
+percona_version: ps80
+database_prod: production
+database_dev: dev
+mysql_prod_user: prod-user
+mysql_dev_user: dev-user
+mysql_prod_pass: 8U2tugdhTyuzc5Rt
+mysql_dev_pass: asd
+MySQL_root_pass: Tx45a59dfs8HuPT5
+pma_user: pma_{{ domain }}
+pma_group: pma_{{ domain }}
+varnish_repo_version: 62
+varnish_version: 6.2.3
+jdk_version: 11
+#elastic_repo_version: 7.x
+elasticsearch_version: 7.9.0
+composer_version: 2
+sudo_user: root
